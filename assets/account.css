@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+}
+
+header {
+  position: fixed;
+}
+main {
+  margin-top: 68px;
+}
+.account-settings {
+}
+.account-settings h3 {
+}
+hr {
+}
+.membership-and-billing {
+}
+.description {
+}
+.description h3 {
+  color: #727272;
+  text-transform: uppercase;
+}
+button {
+}
+.details {
+}
+.email-box {
+}
+span {
+}
+.email {
+}
+.change-email {
+}
+a {
+}
+.password-box {
+}
+.password {
+}
+.change-password {
+}
+.phone-box .phone {
+}
+.change-phone {
+}
+.payment-method-box {
+}
+.payment-method {
+}
+.update-payment-info {
+}
+.payment-method-box {
+}
+.payment-method {
+}
+.update-payment-info {
+}
+.gift-cards {
+}
+.plan-details {
+}
+.plan-type {
+}
+.update-payment-info {
+}
