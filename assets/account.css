@@ -10,6 +10,11 @@ main {
 }
 .account-settings {
 }
+.account-settings a {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
 .account-settings h3 {
 }
 hr {
@@ -21,16 +26,21 @@ hr {
 .description h3 {
   color: #727272;
   text-transform: uppercase;
+  font-size: 1rem;
 }
 button {
 }
-.details {
+.details div {
+  display: flex;
+  justify-content: space-between;
+  text-wrap: nowrap;
 }
 .email-box {
 }
 span {
 }
 .email {
+  font-weight: bold;
 }
 .change-email {
 }
@@ -59,6 +69,9 @@ a {
 .update-payment-info {
 }
 .gift-cards {
+}
+.gift-cards span {
+  width: 100%;
 }
 .plan-details {
 }
