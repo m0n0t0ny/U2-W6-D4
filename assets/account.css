@@ -8,7 +8,13 @@ header {
 main {
   margin-top: 68px;
 }
-.account-settings {
+main > h3 {
+  color: black;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+.account-settings hr {
+  margin: 1rem 0;
 }
 .account-settings a {
   font-size: 0.9rem;
@@ -16,17 +22,15 @@ main {
   text-decoration: none;
 }
 .account-settings h3 {
+  color: #727272;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 hr {
 }
 .membership-and-billing {
 }
 .description {
-}
-.description h3 {
-  color: #727272;
-  text-transform: uppercase;
-  font-size: 1rem;
 }
 button {
 }
@@ -49,10 +53,14 @@ a {
 .password-box {
 }
 .password {
+  color: #666;
 }
 .change-password {
 }
-.phone-box .phone {
+.phone-box {
+}
+.phone {
+  color: #666;
 }
 .change-phone {
 }
@@ -60,22 +68,37 @@ a {
 }
 .payment-method {
 }
+.payment-method img {
+  height: 1rem;
+  filter: grayscale(100%);
+  margin-right: 0.5rem;
+}
 .update-payment-info {
 }
 .payment-method-box {
 }
 .payment-method {
+  font-weight: bold;
 }
 .update-payment-info {
 }
 .gift-cards {
-}
-.gift-cards span {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .plan-details {
 }
+.plan-details div {
+  display: flex;
+  justify-content: space-between;
+  text-wrap: nowrap;
+}
 .plan-type {
+}
+.plan-type img {
+  height: 1rem;
+  margin-left: 0.25rem;
 }
 .update-payment-info {
 }

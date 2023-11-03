@@ -224,8 +224,8 @@
     </header>
 
     <main class="container-xxl p-5">
+      <h3>Account</h3>
       <div class="account-settings row">
-        <h3>Account</h3>
         <hr />
         <div class="membership-and-billing col-4">
           <div class="description">
@@ -252,7 +252,12 @@
           </div>
           <hr />
           <div class="payment-method-box">
-            <span class="payment-method">student@strive.school</span>
+            <span class="payment-method"
+              ><img
+                src="./assets/PayPal.png"
+                alt=""
+              />student@strive.school</span
+            >
             <span class="update-payment-info"
               ><a href="#">Update payment info</a></span
             >
@@ -270,12 +275,16 @@
           </div>
         </div>
         <hr />
-        <h3>Plan details</h3>
-        <div class="plan-details">
-          <span class="plan-type">Premium</span>
-          <span class="update-payment-info"
-            ><a href="#">Billing details</a></span
-          >
+        <div class="plan-details row">
+          <div class="col-4">
+            <h3 class="row">Plan details</h3>
+          </div>
+          <div class="col-8">
+            <span class="plan-type"
+              >Premium<img src="./assets/ultra-hd.jpg" alt=""
+            /></span>
+            <span class="update-payment-info"><a href="#">Change plan</a></span>
+          </div>
         </div>
       </div>
     </main>
