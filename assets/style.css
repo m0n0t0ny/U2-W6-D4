@@ -20,6 +20,7 @@ body {
 }
 
 header {
+  z-index: 10;
   background-color: var(--bg-color);
 }
 header img {
@@ -43,7 +44,7 @@ header img {
 #nav-dropdown {
   background-color: rgba(0, 0, 0, 0.9);
 }
-#nav-dropdown .pencil-icon {
+#nav-dropdown svg {
   color: #b3b3b3;
 }
 #nav-dropdown a:hover {
