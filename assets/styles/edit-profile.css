@@ -90,17 +90,22 @@ body {
   padding: 0.3rem 1rem;
   letter-spacing: 2px;
 }
-.edit-profile .buttons {
+.buttons {
   display: flex;
   gap: 5%;
   text-wrap: nowrap;
   font-size: 1rem;
 }
-.edit-profile button:nth-child(1) {
+.buttons button {
   background-color: white;
   color: #141414;
+  border: 1px solid;
+  text-transform: uppercase;
+  padding: 0.3rem 1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
 }
-.edit-profile button {
+.buttons a {
   background-color: transparent;
   color: #666;
   border: 1px solid;
@@ -108,62 +113,14 @@ body {
   padding: 0.3rem 1rem;
   letter-spacing: 2px;
   font-weight: 600;
+  border-radius: 0;
 }
-.edit-profile button:nth-child(1) {
+.buttons button {
   width: 25%;
 }
-.edit-profile button:nth-child(2) {
+.buttons a:nth-child(1) {
   width: 25%;
 }
-.edit-profile button:nth-child(3) {
+.buttons a:nth-child(2) {
   width: 40%;
 }
-
-/* .checkbox-container {
-  margin-top: 100px;
-  display: flex;
-}
-.checkbox-container input[type="checkbox"] {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  width: 20px;
-  height: 20px;
-  border: 1px solid white;
-  outline: none;
-  cursor: pointer;
-  position: relative;
-}
-.checkbox-container input[type="checkbox"]::before {
-  content: "";
-  display: flex;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-}
-
-.edit-profile span {
-  position: absolute;
-}
-
-.checkbox {
-  position: relative;
-}
-
-.edit-profile span svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 1px solid transparent;
-  margin: 0 -1px;
-  overflow: visible;
-  transform: scale(1);
-  height: 100%;
-  pointer-events: none;
-  width: 100%;
-  letter-spacing: 0 !important;
-  color: #99a1a7;
-} */
