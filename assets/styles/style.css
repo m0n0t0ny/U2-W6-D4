@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  z-index: 10;
+  z-index: 15;
   position: fixed;
   top: 0;
   left: 0;
@@ -99,7 +99,6 @@ main h3 {
   height: calc(10vw);
 }
 .wrapper section a {
-  z-index: 10;
   position: absolute;
   color: #fff;
   text-decoration: none;
